@@ -102,7 +102,7 @@ system.players = function(alivePlayers)
 	end
 
 	for k, v in next, tfm.get.room.playerList do
-		if system.isPlayer(k) then
+		if tfm.get.room.uniquePlayers == 1 or system.isPlayer(k) then
 			total = total + 1
 			if not (v.isDead or v.isVampire) then
 				if alivePlayers then
