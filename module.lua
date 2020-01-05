@@ -478,10 +478,13 @@ for k, v in next, translations do
 	end
 end
 
-for _, f in next, {"AutoShaman", "AutoNewGame", "AutoTimeLeft", "PhysicalConsumables"} do
-	tfm.exec["disable"..f]()
+tfm.exec.disableAutoShaman()
+tfm.exec.disableAutoNewGame()
+tfm.exec.disableAutoTimeLeft()
+tfm.exec.disablePhysicalConsumables()
+for playerName in next, tfm.get.room.playerList do
+	eventNewPlayer(playerName)
 end
-table.foreach(tfm.get.room.playerList, eventNewPlayer)
 
 system.disableChatCommandDisplay(nil, true)
 
