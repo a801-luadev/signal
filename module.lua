@@ -482,6 +482,7 @@ tfm.exec.disableAutoShaman()
 tfm.exec.disableAutoNewGame()
 tfm.exec.disableAutoTimeLeft()
 tfm.exec.disablePhysicalConsumables()
+
 for playerName in next, tfm.get.room.playerList do
 	eventNewPlayer(playerName)
 end
