@@ -1,5 +1,5 @@
 local module = {
-	owner = "Bolodefchoco#0000",
+	owner = "Bolodefchoco#0015",
 	map_file = 1
 }
 
@@ -7,7 +7,7 @@ local module = {
 local translations = {
 	en = {
 		-- Init
-		welcome = "Welcome to <PS>#Signal<S>! Follow the traffic lights and join the hole! Use !help to read more informations and send maps in https://atelier801.com/topic?f=6&t=859064.\n\tReport any issue to Bolodefchoco#0000",
+		welcome = "Welcome to <PS>#Signal<S>! Follow the traffic lights and join the hole! Use !help to read more informations and send maps in https://atelier801.com/topic?f=6&t=859064.\n\tReport any issue to Bolodefchoco#0015",
 		
 		-- Info
 		info = {
@@ -20,7 +20,7 @@ local translations = {
 		close = "Close",
 	},
 	br = {
-		welcome = "Bem-vindo ao <PS>#Signal<S>! Siga o semáforo e entre na toca!  Use !help para ler mais informações e envie mapas em https://atelier801.com/topic?f=6&t=859064.\n\tReporte qualquer problema para Bolodefchoco#0000",
+		welcome = "Bem-vindo ao <PS>#Signal<S>! Siga o semáforo e entre na toca!  Use !help para ler mais informações e envie mapas em https://atelier801.com/topic?f=6&t=859064.\n\tReporte qualquer problema para Bolodefchoco#0015",
 
 		info = {
 			[1] = {"Corra", "Corra o mais rápido que puder. Não pare!"},
@@ -31,7 +31,7 @@ local translations = {
 		close = "Fechar",
 	},
 	pl = {
-		welcome = "Witaj w <PS>#Signal<S>! Patrz na tabliczke i wejdź do norki! Użyj komendy !help, aby przeczytać więcej informacji and send maps in https://atelier801.com/topic?f=6&t=859064.\n\tZgłoś wszystkie błędy jakie znajdziesz do Bolodefchoco#0000",
+		welcome = "Witaj w <PS>#Signal<S>! Patrz na tabliczke i wejdź do norki! Użyj komendy !help, aby przeczytać więcej informacji and send maps in https://atelier801.com/topic?f=6&t=859064.\n\tZgłoś wszystkie błędy jakie znajdziesz do Bolodefchoco#0015",
 		
 		info = {
 			[1] = {"Biegnij", "Biegnij jak najszybciej do norki. Nie zatrzymuj się!"},
@@ -42,7 +42,7 @@ local translations = {
 		close = "Zamknij",
 	},
 	hu = {
-		welcome = "Üdv a <PS>#Signal<S> modulban! Kövesd a jelzőlámpákat, és érj be a lyukba! Használd a !help parancsot, hogy több információt tudj meg, és küldj be pályákat az https://atelier801.com/topic?f=6&t=859064 oldalon.\n\tA hibákat Bolodefchoco#0000 játékosnak jelentheted.",
+		welcome = "Üdv a <PS>#Signal<S> modulban! Kövesd a jelzőlámpákat, és érj be a lyukba! Használd a !help parancsot, hogy több információt tudj meg, és küldj be pályákat az https://atelier801.com/topic?f=6&t=859064 oldalon.\n\tA hibákat Bolodefchoco#0015 játékosnak jelentheted.",
 		
 		info = {
 			[1] = {"Futás", "Fuss olyan gyorsan, ahogyan csak tudsz. Ne állj meg!"},
@@ -53,7 +53,7 @@ local translations = {
 		close = "Bezár",
 	},
 	he = {
-		welcome = "ברוכים הבאים אל <PS>#Signal<S>! עקבו אחרי הרמזורים והיכנסו למחילה! השתמשו ב- !help מכדי לקבל עוד מידע ושלחו מפות ב- https://atelier801.com/topic?f=6&t=859064.\n\t דווחו כל בעיה אל Bolodefchoco#0000",
+		welcome = "ברוכים הבאים אל <PS>#Signal<S>! עקבו אחרי הרמזורים והיכנסו למחילה! השתמשו ב- !help מכדי לקבל עוד מידע ושלחו מפות ב- https://atelier801.com/topic?f=6&t=859064.\n\t דווחו כל בעיה אל Bolodefchoco#0015",
 		
 		info = {
 			[1] = {"רוצו", "רוצו כמה שיותר מהר. אל תעצרו!"},
@@ -69,7 +69,7 @@ local translation = translations[tfm.get.room.community] or translations.en
 --[[ Data ]]--
 local info = {}
 local mapEvaluators = {
-	["Bolodefchoco#0000"] = true,
+	["Bolodefchoco#0015"] = true,
 	["Grapeup#0000"] = true
 }
 local review = false
