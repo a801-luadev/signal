@@ -20,7 +20,7 @@ local translations = {
 		close = "Close",
 	},
 	br = {
-		welcome = "Bem-vindo ao <PS>#Signal<S>! Siga o semáforo e entre na toca!  Use !help para ler mais informações e envie mapas em https://atelier801.com/topic?f=6&t=859064.\n\tReporte qualquer problema para Bolodefchoco#0015",
+		welcome = "Bem-vindo ao <PS>#Signal<S>! Siga o semáforo e entre na toca! Use !help para ler mais informações e envie mapas em https://atelier801.com/topic?f=6&t=859064.\n\tReporte qualquer problema para Bolodefchoco#0015",
 
 		info = {
 			[1] = {"Corra", "Corra o mais rápido que puder. Não pare!"},
@@ -62,6 +62,17 @@ local translations = {
 		},
 		
 		close = "סגור",
+	},
+	tr = {
+		welcome = "<PS>#Signal<S> modülüne hoş geldin! Trafik ışıklarını takip et ve deliğe gir! Daha fazla bilgi için !help komutunu kullanın. Haritalarınızı https://atelier801.com/topic?f=6&t=859064 bu konu üzerinden gönderebilirsiniz.\n\tHerhangi bir hata ile karşılaşırsanız, Bolodefchoco#0015'ya bildiriniz.",
+		
+		info = {
+			[1] = {"Koş", "Olabildiğince hızlı koş. Durma!"},
+			[2] = {"Dikkat", "Dikkat et! Önümüzdeki birkaç saniye içinde ölebilirsin!"},
+			[3] = {"Dur", "Dur ya da öl!"},
+		},
+		
+		close = "Kapat",
 	},
 }
 local translation = translations[tfm.get.room.community] or translations.en
